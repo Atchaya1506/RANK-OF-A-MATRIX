@@ -13,19 +13,19 @@ To write a python program to find the rank of a matrix
 ```
 import numpy as np
 
-A = np.array([[1, 3],
-              [2, 5]])
+A = np.array([[5, -3, -10],
+              [2,  2,  -3],
+              [-3, -1,  5]])
 
-B = np.array([5, -3])
+rank = np.linalg.matrix_rank(A)
 
-solution = np.linalg.solve(A, B)
-
-print(solution)
+print(rank)
 
 ```
 ## Output:
 
-<img width="790" height="817" alt="image" src="https://github.com/user-attachments/assets/8671024e-a56b-4683-8a6c-dad6d8733bfe" />
+<img width="894" height="799" alt="image" src="https://github.com/user-attachments/assets/f3926714-489a-44ce-bf38-488500cdc59d" />
+
 
 
 ## Result:
